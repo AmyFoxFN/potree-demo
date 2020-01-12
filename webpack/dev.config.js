@@ -1,6 +1,7 @@
 const path = require('path')
 const merge = require('webpack-merge')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 const baseConfig = require('./base.config')
 const checkPort = require('./utils/check-port')
 
@@ -13,7 +14,7 @@ const devConfig = merge.smart(baseConfig, {
     port: 8000,
     open: true
   },
-  plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })]
+  plugins: [new HtmlWebpackPlugin({ template: './src/index.html' }), new CopyPlugin([{ from: 'assets', to: 'dest' }])]
 })
 
 module.exports = checkPort(devConfig)
