@@ -6,7 +6,13 @@ window.THREE = THREE
 window.jQuery = jQuery
 window.proj4 = proj4
 
-const Potree = import('@3dr/potree')
+importPotree()
 
-// const cloadContainer = document.getElementById('potree-point-cloud')
-// const viewer = new Potree.Viewer(document.getElementById('potree_render_area'))
+async function importPotree() {
+  const Potree = await import('@3dr/potree')
+
+  debugger
+
+  const cloudContainer = document.getElementById('potree-point-cloud')
+  const viewer = new Potree.Viewer(cloudContainer)
+}
