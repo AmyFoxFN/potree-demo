@@ -72,10 +72,10 @@ function initScene() {
   Potree.Global.workerPath = './source'
 
   loadPointCloud('assets/data/lion_takanawa_ept_laz/ept.json', new THREE.Vector3(-4, -4, 3.0))
-  loadPointCloud('assets/data/lion_takanawa_ept_bin/ept.json', new THREE.Vector3(-11, -4, 3.0))
-  loadPointCloud('assets/data/lion_takanawa/cloud.js', new THREE.Vector3(-2, -3, 0.0))
-  loadPointCloud('assets/data/lion_takanawa_las/cloud.js', new THREE.Vector3(3, -3, 0.0))
-  loadPointCloud('assets/data/lion_takanawa_laz/cloud.js', new THREE.Vector3(8, -3, 0.0))
+  // loadPointCloud('assets/data/lion_takanawa_ept_bin/ept.json', new THREE.Vector3(-11, -4, 3.0))
+  // loadPointCloud('assets/data/lion_takanawa/cloud.js', new THREE.Vector3(-2, -3, 0.0))
+  // loadPointCloud('assets/data/lion_takanawa_las/cloud.js', new THREE.Vector3(3, -3, 0.0))
+  // loadPointCloud('assets/data/lion_takanawa_laz/cloud.js', new THREE.Vector3(8, -3, 0.0))
   //loadPointCloud("http://arena4d.uksouth.cloudapp.azure.com:8080/4e5059c4-f701-4a8f-8830-59e78a2c0816/BLK360 Sample.vpc");
   //"http://5.9.65.151/mschuetz/potree/resources/pointclouds/faro/skatepark/cloud.js"
   //"http://5.9.65.151/mschuetz/potree/resources/pointclouds/weiss/subseamanifold2/cloud.js"
