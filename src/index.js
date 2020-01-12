@@ -4,14 +4,15 @@ import proj4 from 'proj4'
 
 window.THREE = THREE
 window.jQuery = jQuery
+window.$ = jQuery
 window.proj4 = proj4
 
 importPotree()
 
 async function importPotree() {
-  const Potree = await import('@3dr/potree')
+  await import('@3dr/potree')
 
-  debugger
+  const Potree = window.Potree
 
   const cloudContainer = document.getElementById('potree-point-cloud')
   const viewer = new Potree.Viewer(cloudContainer)
