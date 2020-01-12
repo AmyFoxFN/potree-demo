@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": ["dom", "es5", "scripthost", "es2015"],
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "baseUrl": "./",
+    "paths": {
+      "three-pixel-picking": ["src/"]
+    },
+    "experimentalDecorators": true
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

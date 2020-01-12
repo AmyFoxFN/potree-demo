@@ -1,0 +1,7 @@
+{
+  "@amyfox/generator-webpack": {
+    "promptValues": {
+      "title": "potree study"
+    }
+  }
+}
