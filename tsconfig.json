@@ -3,7 +3,7 @@
     "target": "es5",
     "module": "commonjs",
     "jsx": "react",
-    "strict": true,
+    "strict": false,
     "esModuleInterop": true,
     "lib": ["dom", "es5", "scripthost", "es2015"],
     "sourceMap": true,
@@ -14,7 +14,5 @@
     },
     "experimentalDecorators": true
   },
-  "include": [
-    "./src/**/*"
-  ]
+  "include": ["./src/**/*"]
 }

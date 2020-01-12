@@ -2,7 +2,7 @@
   "name": "potree-study",
   "version": "0.1.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --config=webpack/dev.config.js",
     "test": "mochapack \"test/**/*.test.js\" --webpack-config=webpack/test.config.js"
@@ -20,5 +20,11 @@
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2",
     "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "@3dr/potree": "^1.6.2",
+    "jquery": "^3.4.1",
+    "proj4": "^2.6.0",
+    "three": "^0.112.1"
   }
 }

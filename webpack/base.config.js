@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './src/index.ts',
+  entry: './src/index.js',
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json']
   },
